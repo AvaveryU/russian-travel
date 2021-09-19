@@ -1,0 +1,11 @@
+@import url("../vendor/fonts/fonts.css");
+
+@import url("../blocks/page/page.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__language/header__language-links.css");
+@import url("../blocks/header/__language/header__language-link.css");
+@import url("../blocks/header/__title/header__title.css");
+@import url("../blocks/header/__subtitle/header__subtitle.css");
+
+@import url("../blocks/columns/_place/columns_place_header.css");

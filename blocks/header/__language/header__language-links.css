@@ -1,0 +1,6 @@
+.header__language-links {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 0;
+}
