@@ -1,0 +1,5 @@
+.lead__main-illustration {
+    object-fit: cover;
+    max-height: 615px;
+    width: 100%;
+}
