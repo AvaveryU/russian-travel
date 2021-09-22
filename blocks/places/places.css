@@ -1,0 +1,6 @@
+.places {
+    margin: 92px auto;
+    display: grid;
+    grid-template-columns: repeat(1, fit-content(984px));
+    justify-content: center;
+}

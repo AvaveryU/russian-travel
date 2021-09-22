@@ -1,8 +1,8 @@
 .photo-grid {
-    outline: orange 1px solid;
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(284px, min-content));
+    grid-template-rows: repeat(auto-fit, minmax(213px, min-content));
     margin: 92px auto;
+    max-width: 1184px;
 }
