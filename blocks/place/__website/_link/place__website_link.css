@@ -1,7 +1,7 @@
 .place__website_link {
     margin-top: 12px;
     text-decoration: none;
-    transition: linear 0.5s;
+    transition: linear 0.2s;
     color: #fff;
 }
 .place__website_link:hover {
