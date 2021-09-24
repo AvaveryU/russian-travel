@@ -1,8 +1,9 @@
 .place__website_link {
-    text-decoration: none;
-    color: #fff;
     margin-top: 12px;
+    color: #fff;
+    text-decoration: none;
 }
 .place__website_link:hover {
     text-decoration: underline;
+    color: #fff;
 }
