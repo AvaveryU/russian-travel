@@ -1,9 +1,12 @@
 .place__website_link {
     margin-top: 12px;
-    color: #fff;
     text-decoration: none;
+    transition: linear 0.5s;
+    color: #fff;
 }
 .place__website_link:hover {
     text-decoration: underline;
     color: #fff;
+    opacity: 0.8;
+    cursor: pointer;
 }

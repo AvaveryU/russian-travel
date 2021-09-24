@@ -1,0 +1,10 @@
+.cover {
+  padding: 0;
+  margin: 92px auto;
+  background-size: cover;
+  background-position: center;
+  min-height: 740px;
+  max-width: 1184px;
+  position: relative;
+  display: flex;
+}

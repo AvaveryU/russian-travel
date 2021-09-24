@@ -1,5 +1,5 @@
 .places {
-    margin: 92px auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1, fit-content(984px));
     row-gap: 80px;
