@@ -11,7 +11,7 @@
   cursor: pointer;
   opacity: 0.8;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 635px) {
   .footer__link {
     display: block;
     font-size: 24px;

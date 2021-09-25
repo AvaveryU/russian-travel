@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 635px) {
     .footer__navigation {
         flex-direction: column;
     }
