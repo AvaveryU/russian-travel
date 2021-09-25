@@ -1,28 +1,25 @@
 .cover__link {
-    display: flex;
-    /*position: relative;*/
-    background-image: url("../../../images/cover-trains.jpg");
-    background-size: cover;
-    background-position: center;
-    min-height: 740px;
-    width: 100%;
-    text-decoration: none;
-    color: #fff;
-    transition: linear 0.2s;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  min-height: 740px;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  transition: linear 0.2s;
 }
 .cover__link:hover::before {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 .cover__link::before {
-    content: "";
-    background-color: #2A2C2F; /*затемнение*/
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    /*top: 0;*/
-    /*left: 0;*/
-    opacity: 0.3;
-    transition: 0.3s;
-    z-index: 1;
-  }
-  
+  content: "";
+  background-color: #2a2c2f; /*затемнение*/
+  width: 100%;
+  height: 100%;
+  position: absolute;
+ /* top: 0;
+  left: 0;*/
+  z-index: 1;
+  transition: 0.3s;
+  opacity: 0.3;
+}

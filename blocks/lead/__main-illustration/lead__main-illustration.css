@@ -1,5 +1,20 @@
 .lead__main-illustration {
-    object-fit: cover;
-    max-height: 615px;
-    width: 100%;
+  object-fit: contain;
+  max-height: 615px;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .lead__main-illustration {
+    max-height: 580px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead__main-illustration {
+    max-height: 480px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead__main-illustration {
+    max-height: 200px;
+  }
 }

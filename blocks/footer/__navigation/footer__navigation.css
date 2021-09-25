@@ -2,3 +2,8 @@
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width: 425px) {
+    .footer__navigation {
+        flex-direction: column;
+    }
+}

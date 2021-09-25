@@ -5,3 +5,8 @@
     flex-direction: row;
     padding: 0;
 }
+@media screen and (max-width: 425px) {
+    .footer__links {
+        display: inline;
+    }
+}
