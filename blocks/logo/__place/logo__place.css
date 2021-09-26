@@ -1,9 +1,9 @@
-.logo__place_header {
+.logo__place {
   width: 176px;
   height: 52px;
 }
 @media screen and (max-width: 425px) {
-  .logo__place_header {
+  .logo__place {
     width: 142px;
   }
 }
