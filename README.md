@@ -14,4 +14,4 @@
 1. Grid Layout
 2. Flexbox
 
-Ссылка на проект в [GitHub Pages](https://github.com/AvaveryU/russian-travel.git)
+Ссылка на проект в [GitHub Pages](https://avaveryu.github.io/russian-travel/index.html)
