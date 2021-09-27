@@ -8,15 +8,15 @@
   </head>
   <body class="page">
     <header class="header">
-        <img class="logo logo__place" src="./images/header-logo.svg" alt="Россия">
+        <img class="logo logo_place_header" src="./images/header-logo.svg" alt="Россия">
         <ul class="header__language-links">
-          <li><a href="#" class="header__language-link" target="_blank">Ru</a></li>
-          <li><a href="#" class="header__language-link" target="_blank">En</a></li>
+          <li><a href="#" class="header__language-link header__language-link_active" target="_self">Ru</a></li>
+          <li><a href="#" class="header__language-link" target="_self">En</a></li>
         </ul>
     </header>
     <main class="content">
      <section class="lead">
-       <h1 class="lead__title">Путешествия по России</h1>
+       <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
          <img class="lead__main-illustration" src="./images/lead-polka.jpg" alt="Вид из окна поезда">
         <p class="lead__caption">ваша полка — верхняя</p>
@@ -29,8 +29,8 @@
           Россия — это целая вселенная с ласковым морем юга,
           густыми лесами Саян и суровыми льдами плато Путорана.
           А ещё увидеть все эти красоты можно без миллионов на счету,
-          загранпаспорта и многочасовых перелетов. Как, например,
-          Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
+          загранпаспмелая молодая мама, которая взяла в охорта и многочасовых перелетов. Как, например,
+          Вера Башмакова — сапку троих детей,
           усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
@@ -41,7 +41,7 @@
           <li><span class="intro__list-marker">Аэропортов</span> 241</li>
         </ul>
       </section>
-      <section class="photo-grid" aria-label="photo-grid">
+      <section class="photo-grid" aria-label="Фото-сетка">
         <figure class="photo-grid__card">
           <img class="photo-grid__image" src="./images/photo-grid-train.jpg" alt="Горы">
         </figure>
@@ -79,19 +79,15 @@
           <img class="photo-grid__image" src="./images/photo-grid-ergaki.jpg" alt="Облака">
         </figure>
       </section>
-      <section class="places" aria-label="places">
+      <section class="places" aria-label="Места">
         <article class="place">
-          <figure class="place__grid">
-            <h2 class="place__title">Куршская коса</h2>
-          </figure>
-          <figure class="place__website">
-            URL
-            <a class="place__website_link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
-          </figure>
-          <figure class="place__grid">
+          <h2 class="place__title">Куршская коса</h2>
+          <div class="place__website">
+            <p class="place__URL">URL</p>
+            <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+          </div>
             <img src="./images/place-kosa.jpg" alt="Куршская Коса" class="place__image">
-          </figure>
-          <figure class="place__text">
+          <div class="place__text">
             <p class="place__paragraph">
             Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — 
             спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского
@@ -104,21 +100,17 @@
             здешних мест исключает суету, окуная в спокойствие природы и запах стального,
             прохладного моря.
             </p>
-          </figure>
+          </div>
         </article>
         <article class="place">
-          <figure class="place__grid">
             <h2 class="place__title">Кольский</h2>
-          </figure>
-          <figure class="place__website">
-            URL
-            <a class="place__website_link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+          <div class="place__website">
+            <p class="place__URL">URL</p>
+            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
              target="_blank">National Geographic</a>
-          </figure>
-          <figure class="place__grid">
+          </div>
             <img src="./images/place-kolsky.jpg" alt="Кольский" class="place__image">
-          </figure>
-          <figure class="place__text">
+          <div class="place__text">
             <p class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская тундра,
               от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся
@@ -131,21 +123,17 @@
               земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия.
               Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
             </p>
-          </figure>
+          </div>
         </article>
         <article class="place">
-          <figure class="place__grid">
             <h2 class="place__title">Алтай</h2>
-          </figure>
-          <figure class="place__website">
-            URL
-            <a class="place__website_link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+          <div class="place__website">
+            <p class="place__URL">URL</p>
+            <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
             target="_blank">Facebook</a>
-          </figure>
-          <figure class="place__grid">
+          </div>
             <img src="./images/place-altai.jpg" alt="Алтай" class="place__image">
-          </figure>
-          <figure class="place__text">
+          <div class="place__text">
             <p class="place__paragraph">
               Алтай — одно из красивейших мест в России. В первую очередь из-за гор:
               если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки
@@ -158,20 +146,16 @@
               бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули.
               И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
-          </figure>
+          </div>
         </article>
         <article class="place">
-          <figure class="place__grid">
             <h2 class="place__title">Зимний Байкал</h2>
-          </figure>
-          <figure class="place__website">
-            URL
-            <a class="place__website_link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
-          </figure>
-          <figure class="place__grid">
+          <div class="place__website">
+            <p class="place__URL">URL</p>
+            <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+          </div>
             <img src="./images/place-winter-baikal.jpg" alt="Зимний Байкал" class="place__image">
-          </figure>
-          <figure class="place__text">
+          <div class="place__text">
             <p class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также знают,
               что это самый большой источник пресной воды и одно из красивейших мест в России.
@@ -182,20 +166,16 @@
               старается развить как можно бóльшую скорость на льду. В марте 2019 года на
               фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
-          </figure>
+          </div>
         </article>
         <article class="place">
-          <figure class="place__grid">
             <h2 class="place__title">Карелия</h2>
-          </figure>
-          <figure class="place__website">
-            URL
-            <a class="place__website_link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
-          </figure>
-          <figure class="place__grid">
+          <div class="place__website">
+            <p class="place__URL">URL</p>
+            <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
+          </div>
             <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
-          </figure>
-          <figure class="place__text">
+          <div class="place__text">
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
               лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30
@@ -206,12 +186,12 @@
               тропинках деревья в паре метров от земли помечены медвежьими когтями.
               Чтобы все знали, кто тут хозяин.
             </p>
-          </figure>
+          </div>
         </article>
       </section>
-      <section class="cover" aria-label="cover">
+      <section class="cover" aria-label="Обложка">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
-          <h2 class="cover__title">До Байкала &laquo;на собаках&raquo;</h2>
+          <h2 class="cover__title">До Байкала &laquo;на&nbsp;собаках&raquo;</h2>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
           </p>

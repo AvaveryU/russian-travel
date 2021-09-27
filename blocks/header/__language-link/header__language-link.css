@@ -11,3 +11,9 @@
   text-decoration: underline;
   cursor: pointer;
 }
+@media screen and (max-width: 425px) {
+  .header__language-link {
+    line-height: 20px;
+    font-size: 18px;
+  }
+}

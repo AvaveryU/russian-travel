@@ -6,11 +6,6 @@
   margin: 0 auto;
   max-width: 720px;
 }
-@media screen and (max-width: 768px) {
-  .lead__title {
-    max-width: 720px;
-  }
-}
 @media screen and (max-width: 700px) { /*без промежуточного варианта скролл*/
   .lead__title {
     max-width: 600px;
@@ -28,7 +23,5 @@
 @media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
-    font-size: 40px;
-    line-height: 44px;
   }
 }
