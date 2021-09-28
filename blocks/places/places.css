@@ -23,6 +23,6 @@
   .places {
     max-width: 320px;
     row-gap: 50px;
-    margin: 0 16px;
+    margin: 0;
   }
 }

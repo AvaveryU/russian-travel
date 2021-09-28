@@ -35,25 +35,16 @@
     min-height: 480px;
     max-width: 768px;
   }
-  .cover__link::before {
-    height: 100%;
-  }
 }
 @media screen and (max-width: 425px) {
   .cover__link {
     min-height: 400px;
     max-width: 425px;
   }
-  .cover__link::before {
-    height: 100%;
-  }
 }
 @media screen and (max-width: 320px) {
   .cover__link {
     min-height: 200px;
     max-width: 320px;
-  }
-  .cover__link::before {
-    height: 100%;
   }
 }
