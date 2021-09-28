@@ -18,12 +18,13 @@
 @media screen and (max-width: 768px) {
   .cover {
     min-height: 480px;
-    margin: 90px auto 88px;
+    margin: 64px auto 88px;
   }
 }
 @media screen and (max-width: 425px) {
   .cover {
-    max-width: 425px;    
+    max-width: 425px;
+    margin: 41px auto 64px;
   }
 }
 @media screen and (max-width: 320px) {

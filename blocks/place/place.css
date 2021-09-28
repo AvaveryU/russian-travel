@@ -28,12 +28,14 @@
 }
 @media screen and (max-width: 650px) {
   .place {
-    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 420px));
     column-gap: 28px;
   }
 }
 @media screen and (max-width: 425px) {
   .place {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 320px));
+    row-gap: 32px;
   }
 }
+

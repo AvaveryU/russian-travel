@@ -3,6 +3,8 @@
     text-decoration-line: underline;
     transition: linear 0.2s;
     color: #fff;
+    font-size: 18px;
+    line-height: 22px;
 }
 .place__link:hover {
     opacity: 0.8;
